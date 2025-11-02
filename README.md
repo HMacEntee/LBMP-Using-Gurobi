@@ -18,17 +18,17 @@ congestion costs for each load zone.
 ## Repository Structure
 
 .
-|- code/
-|
-|- images/
-|
-|- presentation/
-|
-|- README.md
-|
-|- requirements.txt
-|
-|- LICENSE
+├── code\
+│   ├── main.ipynb
+│   └── util.py
+├── images\
+│   ├── LBMP_Complete.png
+│   └── LBMP_Start.png
+├── presentation\
+│   └── LBMP_Example.pdf
+├── README.md
+├── requirements.txt
+└── LICENSE
 
 ## Model Summary
 
