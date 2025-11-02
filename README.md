@@ -16,7 +16,7 @@ congestion costs for each load zone.
 - Example results included
 
 ## Repository Structure
-
+```
 .
 ├── code\
 │   ├── main.ipynb
@@ -29,7 +29,7 @@ congestion costs for each load zone.
 ├── README.md
 ├── requirements.txt
 └── LICENSE
-
+```
 ## Model Summary
 
 The model minimizes total cost of generation while satisfying:
