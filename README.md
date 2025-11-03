@@ -49,7 +49,7 @@ interface capacity.
 The following image represents the problem environment that will be
 optimized in the example code. 
 
-![Image showing the base state of the problem environment.](images\LBMP_Start.png)
+![Image showing the base state of the problem environment.](images/LBMP_Start.png)
 
 ## Requirements
 
