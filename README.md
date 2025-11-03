@@ -1,8 +1,7 @@
 # Location-Based Marginal Pricing using Gurobi
 
 This repository contains a small-scale cost optimization problem
-seeking to minimize the cost required to fully supply energy
-demands. The problem is subject to generator supply and
+to fulfill energy demands. The problem is subject to generator supply and
 transmission bus limits. A final price is calculated after Gurobi
 locates an optimal solution to determine the marginal price and
 congestion costs for each load zone.
@@ -44,6 +43,13 @@ The main decision variable is:
 After solving, marginal prices are computed and transmission bus
 congestion is identified by comparing transmission flows against 
 interface capacity.
+
+## Example Problem
+
+The following image represents the problem environment that will be
+optimized in the example code. 
+
+![Image showing the base state of the problem environment.](images\LBMP_Start.png)
 
 ## Requirements
 
